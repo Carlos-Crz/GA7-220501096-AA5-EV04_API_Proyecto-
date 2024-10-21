@@ -1,0 +1,103 @@
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+
+:root {
+/*--- TIPOGRAFIA ---*/
+--h1-font-family: "Rota", Helvetica;   
+--h1-font-weight: 700;
+--h1-font-size: 56px;
+--h1-font-style: normal;
+--h1-line-height: 140%;
+
+--h2-font-family: var(--h1-font-family);   
+--h2-font-weight: var(--h1-font-weight);
+--h2-font-size: 48px;
+--h2-font-style: var(--h1-font-style);
+--h2-line-height: var(--h1-line-height);
+
+--h3-font-family: var(--h1-font-family);   
+--h3-font-weight: var(--h1-font-weight);
+--h3-font-size: 40px;
+--h3-font-style: var(--h1-font-style);
+--h3-line-height: var(--h1-line-height);
+
+--h4-font-family: var(--h1-font-family);   
+--h4-font-weight: var(--h1-font-weight);
+--h4-font-size: 32px;
+--h4-font-style: var(--h1-font-style);
+--h4-line-height: var(--h1-line-height);
+
+--heading-h1: var(--h1-font-weight)   var(--h1-font-size)/var(--h1-line-height)  var(--h1-font-family);
+--heading-h2: var(--h2-font-weight)   var(--h2-font-size)/var(--h2-line-height)  var(--h2-font-family);
+--heading-h3: var(--h3-font-weight)   var(--h3-font-size)/var(--h3-line-height)  var(--h3-font-family);
+
+
+/* Tipografía para el cuerpo */
+--body-font: "Manrope", Helvetica;
+--regular-weight: 400; 
+--semibold-weight: 600;  
+--bigger-size: 20px;
+--normal-size: 16px;
+--small-size: 14px;
+--smaller-size: 12px;
+--letter-spacing: 0px;
+--body-line-height: 150%;
+--body-font-style: normal;
+
+--body-bigger-regular:   var(--regular-weight)   var(--bigger-size)/var(--body-line-height)  var(--body-font);
+--body-bigger-semibold:  var(--semibold-weight)  var(--bigger-size)/var(--body-line-height)  var(--body-font);
+--body-normal-regular:   var(--regular-weight)   var(--normal-size)/var(--body-line-height)  var(--body-font);
+--body-normal-semibold:  var(--semibold-weight)  var(--normal-size)/var(--body-line-height)  var(--body-font);
+--body-small-regular:    var(--regular-weight)   var(--small-size)/var(--body-line-height)  var(--body-font);
+--body-small-semibold:   var(--semibold-weight)  var(--small-size)/var(--body-line-height)  var(--body-font);
+--body-smaller-regular:  var(--regular-weight)   var(--smaller-size)/var(--body-line-height)  var(--body-font);
+--body-smaller-semibold: var(--semibold-weight)  var(--smaller-size)/var(--body-line-height)  var(--body-font);
+
+
+/*--- Colores ---*/    
+/*primary*/
+--primitive-primary-400: rgba(71, 137, 235, 1);
+--primitive-primary-500: rgba(26, 107, 229, 1);
+--primitive-primary-600: rgba(20, 86, 184, 1);
+
+/*neutral*/
+--primitive-neutral-BG: rgba(247, 249, 249, 1);
+--primitive-neutral-BG-alt: rgba(240, 242, 243, 1);
+--primitive-neutral-border: rgba(224, 230, 235, 1);
+--primitive-neutral-text-lighter: rgba(169, 182, 188, 1);
+--primitive-neutral-text-light: rgba(141, 157, 165, 1);
+--primitive-neutral-text-normal: rgba(112, 132, 143, 1);
+--primitive-neutral-title: rgba(45, 69, 83, 1);
+
+/*info*/
+--primitive-info-400: rgba(68, 230, 125, 1);
+--primitive-info-500: rgba(30, 215, 96, 1);
+--primitive-info-600: rgba(24, 172, 76, 1);
+
+/*warning*/
+--primitive-warning-400: rgba(255, 181, 84, 1);
+--primitive-warning-500: rgba(255, 164, 43, 1);
+--primitive-warning-600: rgba(237, 134, 0, 1);
+
+/*error*/
+--primitive-error-400: rgba(239, 67, 84, 1);
+--primitive-error-500: rgba(233, 20, 41, 1);
+--primitive-error-600: rgba(188, 16, 33, 1);
+
+/*black & white*/
+--primitive-b-w-white: rgba(255, 255, 255, 1);
+--primitive-b-w-black: rgba(18, 27, 33, 1);
+
+
+  /*--- Dimensiones y Bordes ---*/
+--primitive-border: 4px;
+--primitive-size-icon: 16px;
+--primitive-form-16: 16px;
+--primitive-form-4: 4px;
+--primitive-form-12: 12px;
+--primitive-bordes-8: 8px;
+}
